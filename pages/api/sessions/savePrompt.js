@@ -1,4 +1,6 @@
-import dbConnect from '@/components/lib/mongodb';
+// import dbConnect from '@/components/lib/mongodb';
+import dbConnect from '@/lib/mongodb';
+
 import Prompt from '@/models/Prompt';
 
 export default async function handler(req, res) {

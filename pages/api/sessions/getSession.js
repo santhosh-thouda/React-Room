@@ -1,6 +1,8 @@
 // pages/api/getSession.js
 
-import dbConnect from '@/components/lib/mongodb';
+// import dbConnect from '@/components/lib/mongodb';
+import dbConnect from '@/lib/mongodb';
+
 import Session from '@/models/Session';
 
 export default async function handler(req, res) {
